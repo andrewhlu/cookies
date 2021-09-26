@@ -1,0 +1,33 @@
+@font-face {
+    font-family: Avenir;
+    src: url("fonts/AvenirLTStd-Light.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Avenir;
+    font-weight: bold;
+    src: url("/fonts/AvenirLTStd-Black.otf") format("opentype");
+}
+
+body {
+    font-family: "Avenir";
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+img {
+    padding: 1rem;
+}
+
+.container {
+    margin: auto;
+    max-width: 1000px;
+    padding: 3rem;
+}
+
+.center {
+    text-align: center;
+}
